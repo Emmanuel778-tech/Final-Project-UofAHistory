@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    background-color: rgb(163, 36, 36);
+    background-color: rgb(169, 33, 33);
     margin-bottom: 760;
     padding-left: 6px;
     position: relative;
@@ -39,20 +39,24 @@ p {
     height: 100px;
     color: white;
 }
+header-image {
+    https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeJFPmxEStButshXviPA7wz0km7ye9CVtyhQ&s;
+}
 
 .card {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 3px;
     margin-top: 15px;
-    border-radius: 100%;
+    border-radius: 10%;
     background-color: white;
-    width: 50%;
+    width: fit-content;
+    position:static;
+    
 }
 
 .card img {
-    border-radius: 100%;
+    border-radius: 10%;
 }
 
 .card:hover {
@@ -63,16 +67,16 @@ p {
 
 @keyframes my-animation {
     0% {
-        filter: drop-shadow(10px 15px 5px rgb(0, 30, 255));
+        filter: drop-shadow(10px, 15px, 5px, rgb(255, 0, 0));
     }
     100% {
-        filter:drop-shadow(30px 40px 20px rgb(12, 26, 106));
+        filter:drop-shadow(30px, 40px, 20px navy)(122 0px 0px);
     }
     50% {
-        filter:opacity(12px 20px 30px);
+        filter:opacity(12px, 20px, 30px);
     }
-    100% {
-
+    10% {
+        filter:grayscale(200px, 40px, 150px);
     }
 }
 
