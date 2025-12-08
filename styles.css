@@ -13,20 +13,47 @@ h1 {
     font-family: Cinzel;
     font-size: 30px;
     text-align: center; 
-    margin-right: 150%;  
+    margin-right: 10%; 
+    width: fit-content;
 }
 
 h2 {
     color: white;
 }
 
+h2 {
+    background-color: black;
+    width: fit-content;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 15%;
+    opacity: 70%;
+}
+
+h2 {
+    margin: auto;
+}
+
+p {
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 8px;
+    text-align: center;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 p {
     font-family:'Times New Roman', Times, serif;
     font-size: 30px;
-    margin-left: 25px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    color: rgb(255, 251, 251);
-    background-color: rgba(0, 0, 0, 0.636);
+    color: rgb(255, 255, 255);
+    background-color: rgba(1, 4, 62, 0.636);
     border-radius: 35px;
     height: 130px;
 }
@@ -63,7 +90,7 @@ p {
 }
 
 .card:hover {
-    animation: hover 2s;
+    animation: hover 6s;
     filter: drop-shadow(3px 4px 2px rgb(255, 255, 255));
 
 }
@@ -78,6 +105,9 @@ p {
     }
     50% {
         animation-duration: infinite;
+    }
+    50% {
+        
     }
 }
 
