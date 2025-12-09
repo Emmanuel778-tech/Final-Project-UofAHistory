@@ -90,25 +90,23 @@ p {
 }
 
 .card:hover {
-    animation: hover 6s;
+    animation: hover 0.5s;
     filter: drop-shadow(3px 4px 2px rgb(255, 255, 255));
 
 }
 
 @keyframes hover {
-    0% {
-        transform: rotate(0deg);
-        opacity: 90%;
-    }
-    100% {
-        transform: rotate(2deg);
-    }
-    50% {
-        animation-duration: infinite;
-    }
-    50% {
-        
-    }
+   from { transform: rotate(0deg); }
+  to { transform: rotate(3deg); }
+}
+
+img {
+  animation:  rotate 3s linear infinite;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: rotate(5deg) scale(1.2);
 }
 
 
