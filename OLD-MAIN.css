@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Plaster&display=swap');
 body {
-    background-color: rgba(143, 39, 39, 0.772);
+    background-color: rgba(0, 0, 0, 0.857);
 }
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.777);
+    font-family: Cinzel;
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    border-radius: 23px;
+    padding: 50px;
+}
+
+.History {
+    margin: auto;
+    background-color: white;
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 23px;
+    height: auto;
+    width: fit-content;
+    
+}
+
+.header {
+    background-image: url("https://phoenixmed.arizona.edu/sites/default/files/campus/marcomm/brand/master-logo/7-ua-vertical-black/ua_stack_rgb_black_10.png");
+    background-color: white;
+    margin: auto;
+    background-repeat: no-repeat;
+    border-radius: 23px;
+    background-size: contain;
+    position: relative;
+    width: 50%;
+}
+
+li {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: auto;
+    width: fit-content;
+    background-color: navy;
+    color: white;
+    border-radius: 4px;
+}
+
