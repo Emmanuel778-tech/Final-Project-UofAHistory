@@ -56,3 +56,20 @@ h2 {
     border-radius: 4px;
 }
 
+.button {
+    background-color: rgba(255, 255, 255, 0.333);
+    color: black;
+    width: fit-content;
+    padding: 0.1px;
+    border-radius: 23px;
+}
+
+h3:hover {
+    background-color: navy;
+}
+
+.button:hover {
+    background-color: navy;
+}
+
+
