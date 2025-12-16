@@ -75,15 +75,19 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-radius: 10px;
-    width: fit-content;
 }
 
 .card2 img {
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    flex-wrap: wrap;
     gap: 10px;
-    width: fit-content;
-    height: 50%;
-    position: absolute;
+    height: 300px;
+    position: relative;
+    bottom: 20%;
+    float: left;
+    margin: 10px;
 }
 
 .card {
@@ -123,7 +127,6 @@ img {
 img:hover {
   transform: rotate(5deg) scale(1.2);
 }
-
 
 
 
